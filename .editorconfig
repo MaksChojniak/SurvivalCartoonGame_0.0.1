@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# IDE0051: Usuń nieużywane prywatne składowe
+dotnet_diagnostic.IDE0051.severity = suggestion
