@@ -120,31 +120,34 @@ public class MapGenerator : MonoBehaviour
         }
 
     }
-        void GenerateMap()
+    void GenerateMap()
+    {
+        if (start == 0)
         {
-            if (start == 0)
-            {
-                seed = UnityEngine.Random.Range(0, 1000);
-                noiseData.seed = seed;
+            seed = UnityEngine.Random.Range(0, 1000);
+            noiseData.seed = seed;
 
-                Destroy(mesh.GetComponent<MeshCollider>());
+            Destroy(mesh.GetComponent<MeshCollider>());
 
-                start = 1;
-            }
-            if (start == 1)
-            {
+            start = 1;
+        }
+        if (start == 1)
+        {
 
-                mesh.gameObject.AddComponent<MeshCollider>();
+            mesh.gameObject.AddComponent<MeshCollider>();
 
-            GameObject.Find("Tree Generator").GetComponent<EnvironmentGenerator>().Generate();
+            GameObject.Find("Tree05 Generator").GetComponent<EnvironmentGenerator>().Generate();
+            GameObject.Find("Tree03 Generator").GetComponent<EnvironmentGenerator>().Generate();
             GameObject.Find("Stone Generator").GetComponent<EnvironmentGenerator>().Generate();
             start = 2;
-            }
         }
+    }
 
     void Update()
     {
+
         GenerateMap();
+
         if (mapDataThreadInfoQueue.Count > 0)
         {
             for (int i = 0; i < mapDataThreadInfoQueue.Count; i++)
