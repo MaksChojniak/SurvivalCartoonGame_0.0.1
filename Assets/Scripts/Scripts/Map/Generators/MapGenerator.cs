@@ -136,7 +136,8 @@ public class MapGenerator : MonoBehaviour
 
                 mesh.gameObject.AddComponent<MeshCollider>();
 
-            GameObject.Find("Tree Generator").GetComponent<EnvironmentGenerator>().Generate();
+            GameObject.Find("Tree05 Generator").GetComponent<EnvironmentGenerator>().Generate();
+            GameObject.Find("Tree03 Generator").GetComponent<EnvironmentGenerator>().Generate();
             GameObject.Find("Stone Generator").GetComponent<EnvironmentGenerator>().Generate();
             start = 2;
             }
