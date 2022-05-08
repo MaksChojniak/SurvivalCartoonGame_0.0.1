@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoUpdate: 1
   normalizeMode: 0
-  noiseScale: 40
+  noiseScale: 35
   octaves: 5
   persistance: 0.5
   lacunarity: 2
-  seed: 967
+  seed: 823
   offset: {x: 0, y: 0}
