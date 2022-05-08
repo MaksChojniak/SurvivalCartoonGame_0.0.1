@@ -19,10 +19,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_4638e4c27dcb45cda224e6ebbb13cfe0:
-        m_Texture: {fileID: 2800000, guid: 37033545571e2524180731b9d10dc1ec, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -80,17 +76,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_2cd1a48593f14512a5a7401babbe5ec9: 1.5
-    - Vector1_3c3870d4442a468caa85282c2d8c61ba: 1
-    - Vector1_3e2ded35bee248cba14476facbd8846b: 0.5
-    - Vector1_5cf239fd64644602b249fcf36959cee9: 0.05
+    - Vector1_2cd1a48593f14512a5a7401babbe5ec9: 6
+    - Vector1_5cf239fd64644602b249fcf36959cee9: 2
     - Vector1_701bde18ad624292b57ca7dfbe187905: 1
-    - Vector1_7644035916444b3ea2f1497d9ba1f0d0: 0.075
-    - Vector1_8c075c2b16b44b14a28eb18930399fca: 100
+    - Vector1_7644035916444b3ea2f1497d9ba1f0d0: 0.05
+    - Vector1_8c075c2b16b44b14a28eb18930399fca: 1
     - Vector1_9a894c0ed6b1486db8ec0aad4c7683eb: 5
-    - Vector1_a710c584517c4139ada5654173d0501f: 0.3
-    - Vector1_b6bef7fb28d642bca17fdcb3b9aff72d: 1
-    - Vector1_d7baab19980746da9aec6db1e9270717: 0.331
     - Vector1_e4179954be8a44a5b783cfa8e0e3f8a2: 10
     - Vector1_efdce5921f0947319e05200b1f60aca7: 1
     - _AlphaClip: 0
@@ -120,10 +111,9 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_1b31292956b5455aa09cd252d25bde83: {r: 0, g: 0.72418404, b: 1, a: 0.11764706}
-    - Color_35653a87c471426c915a34125e93f874: {r: 0, g: 0.19064093, b: 1, a: 0.39215687}
-    - Color_4166a588d561425c9a6dff3eb3fe0b39: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 0.78039217}
-    - Vector2_66179780a46e4de893114d326038297d: {r: 3, g: 10, b: 0, a: 0}
+    - Color_1b31292956b5455aa09cd252d25bde83: {r: 0, g: 0.72418404, b: 1, a: 0}
+    - Color_35653a87c471426c915a34125e93f874: {r: 0.03127098, g: 0, b: 1, a: 0.31764707}
+    - Color_4166a588d561425c9a6dff3eb3fe0b39: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
