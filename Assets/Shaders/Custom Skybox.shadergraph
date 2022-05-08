@@ -326,7 +326,7 @@
     "m_Group": {
         "m_Id": ""
     },
-    "m_Name": "Skybox ColorSub Graph",
+    "m_Name": "Skybox Day Color Sub Graph",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
