@@ -139,6 +139,7 @@ public class MapGenerator : MonoBehaviour
             GameObject.Find("Tree05 Generator").GetComponent<EnvironmentGenerator>().Generate();
             GameObject.Find("Tree03 Generator").GetComponent<EnvironmentGenerator>().Generate();
             GameObject.Find("Stone Generator").GetComponent<EnvironmentGenerator>().Generate();
+            GameObject.Find("Uderwater Stones Generator").GetComponent<EnvironmentGenerator>().Generate();
             start = 2;
         }
     }
